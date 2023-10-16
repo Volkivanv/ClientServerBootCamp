@@ -1,10 +1,11 @@
 ﻿namespace Client
 {
-class Program
-{
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Это мой клиент");
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Это мой клиент");
+            OurClient ourClient = new OurClient();
+        }
     }
-}
 }
